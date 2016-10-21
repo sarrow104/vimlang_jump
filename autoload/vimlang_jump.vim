@@ -15,7 +15,7 @@ function s:JumpVimDefinition()
             silent execute 'new ' . path
             let line = search(l:func_name)
             if line > 0
-                normal zt
+                normal! zt
             endif
         endif
     endif
